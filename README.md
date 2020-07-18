@@ -1,5 +1,5 @@
 # AWS-CICD
-The project about structure of AWS CICD
+The project is about structure of AWS CICD
 
 ## Technologies used
 CodeCommit
