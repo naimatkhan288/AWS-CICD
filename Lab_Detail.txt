@@ -1,0 +1,15 @@
+Lab Detail:
+codecommit lab:A place to store the code
+1: Repository name: my-nodejs-app
+We cloned to github from our codecommit
+
+CodePipeline LAB: To automate the code
+- We have to environment in Beanstalk:
+1: Dev
+2: Prod
+- So, we have just done our first CodePipeline, where we hooked the CodeCommit repository and the code went all the way through CodePipeline into Elastic Beanstalk and updated our first environment to something blue
+-Then we added another stage,first manual approval and then Prod. By this way when we made some changes to the code, it deploy to Dev but before to prod it will need manual approval. So if we approve it then it will go to production Environment.  
+
+CodeBuild: CodeBuilsis used to Build and Test the code. We checked the code in Index.html for "Congratulation" to be keep in there. First wehen I wrote something different, then it gives the error, later after I fixed then it started working.
+
+CodeDeploy: We added one EC2 instance, and deployment Group, we add that instance to the deployment Group and so it when the CodeDeploy started, it install all the application on instance.
